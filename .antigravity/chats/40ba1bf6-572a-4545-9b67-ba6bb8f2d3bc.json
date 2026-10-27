@@ -40,6 +40,18 @@
       "created_at": "2026-10-27T08:29:18.107Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "488dd261-d623-4e25-b41a-5b57c57ec856",
+      "role": "agent",
+      "content": "Yo! Because the previous session crashed, this is running in a fresh workspace that isn't connected to your repository yet, so `worklog.md` and `scenesync.zip` aren't present here yet.\n\nTo get everything linked up:\n\n1. **Connect your GitHub repo**: Tap the **GitHub mark at the top of the chat**. You don't need to share your PAT token or configure Git manually—connecting through that button will link your repository and bring your code and history right in.\n2. **Assets**: If `scenesync.zip` isn't committed inside your repository, you can upload or drop the file directly into the chat once connected.\n\nAs soon as your repo connects, I'll check `worklog.md` and immediately jump on:\n- Updating the browser naming\n- Implementing the offline screen from `scenesync.zip`",
+      "status": "completed",
+      "model": "auto",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "182a1a15-23f9-440b-9252-e381b758234b",
+      "created_at": "2026-10-27T08:32:38.174Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
