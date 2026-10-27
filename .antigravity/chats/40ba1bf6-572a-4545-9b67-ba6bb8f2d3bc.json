@@ -3,6 +3,31 @@
   "name": "Yo bro",
   "createdAt": "2026-10-27T08:13:02.914Z",
   "filename": "40ba1bf6-572a-4545-9b67-ba6bb8f2d3bc.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "5e47c394-5151-47f8-9d9f-c1491ca0cf18",
+      "role": "user",
+      "content": "Yo bro",
+      "status": "pending",
+      "model": "auto",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-27T08:15:49.520Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "6163f0d0-b516-4742-a56d-1f630df880e0",
+      "role": "agent",
+      "content": "Yo! What are we building today?",
+      "status": "completed",
+      "model": "auto",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "5e47c394-5151-47f8-9d9f-c1491ca0cf18",
+      "created_at": "2026-10-27T08:16:02.761Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
